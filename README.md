@@ -34,7 +34,7 @@ Download and include truncgil.js with `<script>` tag
 Functions
 -------------
 
-###replaceAll
+replaceAll
 ----
 Replaces all matched values even if it's non string type.
 ```javascript
@@ -49,7 +49,7 @@ console.log(val.replaceAll('e', 'T'));		// { a: 'lorTm', b: 'ipsum' }
 let val = _( true );
 console.log(val.replaceAll(true, false));	// false
 ```
-###typeof
+typeof
 ----
 Returns specified detailed type of variable
 ```javascript
@@ -63,7 +63,7 @@ console.log( _(null).typeof() );		// null
 console.log( _(undefined).typeof() );		// undefined
 ```
 
-###typeofBlank
+typeofBlank
 ----
 Returns Blank object for easy equality
 ```javascript
@@ -81,7 +81,7 @@ if( _(a).typeofBlank === []){
 }
 ```
 
-###parseAll
+parseAll
 ----
 Parses variable to all combinations
 ```javascript
@@ -103,7 +103,7 @@ console.log( _(123.45).parseAll() );
 }
 */
 ```
-###reverse
+reverse
 ----
 Reverses everything :satisfied:
 ```javascript
@@ -113,14 +113,14 @@ console.log( _(['a','b','c']).reverse() );		// ['c','b','a']
 console.log( _(true).reverse() );		// false
 ```
 
-###slugify
+slugify
 ----
 Return slug value of text
 ```javascript
 console.log( _('SLugify Slug').slugify() );		// slugify-slug
 ```
 
-###pushIfNotExists
+pushIfNotExists
 ----
 Push Element to Array if not exists
 ```javascript
@@ -129,7 +129,7 @@ console.log( _(arr).pushIfNotExists('asd') );		// ['asd', 'qwe', 'zxc']
 console.log( _(arr).pushIfNotExists('aaa') );		// ['asd', 'qwe', 'zxc', 'aaa']
 ```
 
-###toArray
+toArray
 ----
 Converts an Object to Array
 ```javascript
@@ -138,7 +138,7 @@ let arr = _(obj).toArray();		['a': 'asd', 'b': 'qwe']
 console.log(arr['a']);		//asd
 ```
 
-###toObject
+toObject
 ----
 Converts an Array to Object
 ```javascript
@@ -149,7 +149,7 @@ let obj = _(arr).toObject();		{'a': 'asd', 'b': 'qwe'}
 console.log(obj.a);		//asd
 ```
 
-###wordCount
+wordCount
 ----
 Returns count of words in a sentence
 ```javascript
@@ -157,7 +157,7 @@ let sentence = 'Lorem ipsum dolor sit amet';
 console.log( _(sentence).wordCount() );		//5
 ```
 
-###wordCount
+wordCount
 ----
 Returns count of words in a sentence
 ```javascript
@@ -165,7 +165,7 @@ let sentence = 'Lorem ipsum dolor sit amet';
 console.log( _(sentence).wordCount() );		//5
 ```
 
-###sleep
+sleep
 ----
 In `async` functions delays next process in given time
 ```javascript
@@ -176,7 +176,7 @@ In `async` functions delays next process in given time
 })();
 ```
 
-###printExecutionTime
+printExecutionTime
 ----
 In `async` functions delays next process in given time
 ```javascript
@@ -187,8 +187,10 @@ In `async` functions delays next process in given time
 })();
 ```
 
-###getUnique
-###log
+getUnique
+----
+log
+----
 
 
 
