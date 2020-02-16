@@ -157,14 +157,6 @@ let sentence = 'Lorem ipsum dolor sit amet';
 console.log( _(sentence).wordCount() );		//5
 ```
 
-wordCount
-----
-Returns count of words in a sentence
-```javascript
-let sentence = 'Lorem ipsum dolor sit amet';
-console.log( _(sentence).wordCount() );		//5
-```
-
 sleep
 ----
 In `async` functions delays next process in given time
