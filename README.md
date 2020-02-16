@@ -1,10 +1,10 @@
 ### Features
 
-- Simple variable operations :tw-2705:
-- Tested Functions :tw-2705:
-- Used on dozens of projects :tw-1f4aa:
-- Easy to use :tw-1f44d:
-- For JavaScript lovers :tw-1f609:
+- Simple variable operations :white_check_mark:
+- Tested Functions :white_check_mark:
+- Used on dozens of projects :muscle:
+- Easy to use :+1:
+- For JavaScript lovers :blush:
 
 # Truncgil JavaScript Library
 
@@ -105,7 +105,7 @@ console.log( _(123.45).parseAll() );
 ```
 ###reverse
 ----
-Reverses everything :tw-1f606:
+Reverses everything :satisfied:
 ```javascript
 console.log( _('asd').reverse() );		// dsa
 console.log( _(123456).reverse() );		// 654321
